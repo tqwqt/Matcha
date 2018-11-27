@@ -1,0 +1,4 @@
+SELECT users.id,  users.login, photo.url, photo.is_avatar FROM users 
+                  LEFT JOIN photo
+                  ON photo.user_id = users.id
+                  WHERE photo.user_id = 9
