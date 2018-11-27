@@ -4,14 +4,14 @@ import nodemailer from 'nodemailer'
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'violinhell@gmail.com',
-        pass: 'abandon_all_hope_549510o'
+        user: '',
+        pass: ''
     }
 });
 
 let mailOptions = {
-    from: 'violinhell@gmail.com',
-    to: 'tqwqts@gmail.com',
+    from: '',
+    to: '',
     subject: 'Matcha account verification',
     html: '<h1>Hello</h1>'
 };
